@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Management | Landmark Group Construction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --dark: #111820; --silver: #B1B3B2; --white: #FFFFFF; --off: #f6f6f5; }
+    body { font-family: 'Inter', sans-serif; color: var(--dark); background: var(--white); }
+    nav { background: var(--dark); padding: 1.2rem 5%; display: flex; align-items: center; justify-content: space-between; }
+    .nav-back { color: rgba(255,255,255,0.65); text-decoration: none; font-size: 0.72rem; letter-spacing: 3px; text-transform: uppercase; display: flex; align-items: center; gap: 0.6rem; transition: color 0.2s; }
+    .nav-back:hover { color: #fff; }
+    .nav-logo-text { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; letter-spacing: 4px; text-transform: uppercase; color: rgba(255,255,255,0.8); text-decoration: none; }
+    .svc-hero { position: relative; height: 52vh; min-height: 360px; overflow: hidden; background: #1a1f28; display: flex; align-items: flex-end; }
+    .svc-hero-bg { position: absolute; inset: 0; background: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&q=85') center/cover no-repeat; opacity: 0.38; }
+    .svc-hero-content { position: relative; z-index: 1; padding: 3rem 5%; }
+    .svc-eyebrow { font-size: 0.66rem; letter-spacing: 5px; text-transform: uppercase; color: var(--silver); margin-bottom: 0.8rem; }
+    .svc-hero h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.4rem, 5vw, 4.2rem); font-weight: 400; color: #fff; line-height: 1.1; }
+    .svc-body { max-width: 860px; margin: 0 auto; padding: 5rem 5%; }
+    .svc-intro { font-size: clamp(1rem, 1.5vw, 1.18rem); line-height: 1.9; color: #444; font-weight: 300; margin-bottom: 3.5rem; border-left: 2px solid var(--silver); padding-left: 1.8rem; }
+    .svc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 3.5rem; }
+    .svc-point { padding: 2rem; background: var(--off); border: 1px solid rgba(17,24,32,0.07); }
+    .svc-point h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-weight: 500; color: var(--dark); margin-bottom: 0.6rem; }
+    .svc-point p { font-size: 0.86rem; line-height: 1.85; color: #666; font-weight: 300; }
+    .svc-cta-block { background: var(--dark); padding: 3rem; display: flex; align-items: center; justify-content: space-between; gap: 2rem; flex-wrap: wrap; }
+    .svc-cta-block h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(1.5rem, 2.5vw, 2rem); font-weight: 400; color: #fff; }
+    .svc-cta-block p { color: rgba(255,255,255,0.5); font-size: 0.85rem; margin-top: 0.4rem; font-weight: 300; }
+    .btn-enquire { display: inline-block; padding: 0.95rem 2.4rem; background: #fff; color: var(--dark); font-size: 0.72rem; letter-spacing: 3px; text-transform: uppercase; font-weight: 500; text-decoration: none; white-space: nowrap; transition: background 0.25s; }
+    .btn-enquire:hover { background: var(--silver); }
+    @media (max-width: 640px) { .svc-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="../index.html" class="nav-back">&#8592; Back to Site</a>
+    <a href="../index.html" class="nav-logo-text">Landmark Group</a>
+  </nav>
+  <div class="svc-hero">
+    <div class="svc-hero-bg"></div>
+    <div class="svc-hero-content">
+      <p class="svc-eyebrow">Our Services &nbsp;/&nbsp; 08</p>
+      <h1>Project<br>Management</h1>
+    </div>
+  </div>
+  <div class="svc-body">
+    <p class="svc-intro">End-to-end oversight from concept to completion. We coordinate every contractor, supplier and approval so your project runs seamlessly from the very first day to final handover.</p>
+    <div class="svc-grid">
+      <div class="svc-point">
+        <h3>Single Point of Contact</h3>
+        <p>You deal with one person throughout your project. No chasing multiple contractors, no confusion over responsibility. Landmark manages everything on your behalf.</p>
+      </div>
+      <div class="svc-point">
+        <h3>Programme Planning</h3>
+        <p>A detailed programme is prepared before any work commences, identifying all milestones, dependencies and lead times to ensure your project runs on schedule from day one.</p>
+      </div>
+      <div class="svc-point">
+        <h3>Contractor Coordination</h3>
+        <p>We manage all sub-contractors and specialist trades, ensuring each phase is completed on time, to standard and ready for the next stage of the build.</p>
+      </div>
+      <div class="svc-point">
+        <h3>Reporting and Transparency</h3>
+        <p>Regular progress updates, budget tracking and clear reporting throughout. You always know exactly where your project stands and what is happening on site.</p>
+      </div>
+    </div>
+    <div class="svc-cta-block">
+      <div>
+        <h2>Need Professional Project Management?</h2>
+        <p>Tell us about your project and we will be in touch within one business day.</p>
+      </div>
+      <a href="../index.html#contact" class="btn-enquire">Submit an Enquiry</a>
+    </div>
+  </div>
+</body>
+</html>
